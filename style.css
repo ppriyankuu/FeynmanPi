@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.hero {
+    background-color: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+/* NAV bar */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-img {
+    width: 25px;
+    margin-left: 4px;
+    cursor: pointer;
+    margin-top: -25px;
+}
+
+nav .logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition: 0.6s all ease;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav button{
+    background: #efefef;
+    height: 25px;
+    width: 50px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+nav button span{
+    display: block;
+    background: #6c6c6c;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    transition: 0.5s all ease;
+}
+
+/* LAMP CONTAINER */
+
+.lamp-container{
+    position: absolute;
+    top: -23px;
+    left: 22%;
+    width: 200px;
+}
+
+.lamp{
+    width: 100%;
+}
+
+.light{
+    top: 97%;
+    left: 50%;
+    transform: translateX(-51.2%);
+    width: 700px;
+    position: absolute;
+    opacity: 0;
+    transition:0.5s all ease;
+}
+
+
+.text-container{
+    max-width: 600px;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+.text-container h1{
+    font-size: 45px;
+}
+
+span.col{
+    color: rgb(102, 144, 253);
+}
+
+#feyny{
+    font-size: 20px;
+    margin-left: 239px;
+    color: rgb(102, 144, 253);
+    margin-top: -5px;
+}
+
+.text-container p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.text-container a{
+    text-decoration: none;
+    background: rgb(102, 144, 253);
+    padding: 14px 40px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 120px;
+}
+
+.control .line{
+    width: 250px;
+    height: 4px;
+    background-color: white;
+    margin: 0 20px;
+    border-radius: 2px;
+}
+
+#contr{
+    margin-top: -1px;
+    font-size: 14px;
+}
+
+.control .line span{
+    width: 50%;
+    height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: rgb(102, 144, 253);
+    display: block;
+}
+
+.active{
+    background: rgb(102, 144, 253);
+}
+
+.active span{
+    background: whitesmoke;
+    margin-left: 50%;
+}
+
+.on{
+    opacity: 1;
+}
+
+
